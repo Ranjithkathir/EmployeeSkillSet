@@ -1,0 +1,282 @@
+												/*Auth blades*/
+#appname{
+	color: white;
+	font-size:20px;
+}
+#log,#reg{
+	color: white;
+}
+#adminlogin{
+	color:white;
+	font-weight: bold;
+}
+#adminregister{
+	color:white;
+	font-weight: bold;
+}
+#employeelogin{
+	color:white;
+	font-weight: bold;
+}
+#employeeregister{
+	color:white;
+	font-weight: bold;
+}
+.loginregisterbackground{
+	background-image: url('../images/loginbackground.jpg');
+	background-size: cover;
+  	background-repeat: no-repeat;
+}
+.customcard{
+	top:30px;
+	background-color: transparent;
+	border: none;
+	color: white
+}
+.cardhead{
+	border: none;
+	background-color: transparent;
+	text-align: center;	
+	font-size: 20px;
+}
+.formtypecustom{
+	background-color: transparent;
+	border-radius: 20px;
+	color:white;
+}
+#emailbg{
+	
+}
+.formtypecustom::placeholder{
+	color: white;
+}
+.customloginbutton{
+	background-color: #ff7e28;
+	color: white;
+}
+.formtype input[type]{
+	background:transparent;
+	color: white;
+}
+/*Header*/
+.header{
+	background-color:#bdd4f9; 
+}
+.logo{
+	width:auto;
+	text-align: center;
+}
+.logo p{
+	font-weight: bolder;
+	font-style: italic;
+	color:red;
+}
+.name h3{
+	font-weight: bolder;
+	color:#4b8cf4;
+	font-style: italic;
+}
+/* Navigation Bar*/
+#webname{
+	color: white;
+}
+.navigationbar{
+	background-color: #1e437f;
+}
+.navbar-nav a{
+    color: white;
+    font-size: 16px;
+}
+.navbar-nav li a:hover{
+    background:#bbbcbf;
+}
+.navbar-nav li a:active{
+	background-color: whitesmoke;
+}
+.navbar-toggle{
+    background:#ff4c28;
+}
+.navbar-toggle span{
+    background-color:white;
+}
+.active{
+	background-color:#bbbcbf ;
+}
+/* Footer */
+footer{
+    position: relative;
+}
+.foot{
+    padding:20px 40px;
+    background: #262d38;
+}
+.contact h3,.about h3{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+}
+.contact h3
+{
+    padding-bottom: 15px;
+}
+.contact i{
+    font-size:18px;
+}
+.contact p{
+	color:#dcdfe5;
+}
+.contact a{
+    color:#b3bcce;
+    font-weight: bold;
+}
+#aboutdesc{
+    padding:15px 5px;
+    color:#dcdfe5;
+}
+.socialicons{
+    text-align: center;
+}
+.socialicons i{
+    background: #354056;
+    font-size:20px;
+    padding:10px;
+}
+#fb{
+    padding:10px 13px;
+}
+.socialicons a{
+    color:white;
+    padding:10px;
+}
+.fb:hover{
+    background:#3B5998;
+    color:white;
+}
+.twi:hover{
+    background:#1DA1F2;
+    color:white;  
+}
+.ln:hover{
+    background: #0077B5;
+    color:white;   
+}
+#social{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+}
+/*home page*/
+.service{
+	text-align: center;
+}
+.service h3{
+	text-align: left;
+	color:#4b8cf4;
+	font-style: italic;
+	font-weight: bolder;
+}
+.service a{
+	font-size:20px;
+	color:#1e437f;
+	font-weight: bolder;
+	font-style: italic;
+	text-decoration: none;
+}
+/*Employee*/
+.table1{
+    margin:10px;
+}
+.table,.table th{
+    text-align: center;
+    font-size:14px;
+}
+.employee{
+    padding-top: 20px;
+}
+.employeehead{
+    font-size: 26px;
+    color:#4b8cf4;
+    font-style: italic;
+    font-weight: bolder;
+}
+.employeenewbutton{
+    margin-top:5px;
+}
+.datatableemployee{
+	padding:20px 0px;
+}
+.iconbutton{
+	font-size: 23px;
+	margin: 0px 10px;
+}
+.del{
+	color: #f44242;
+}
+.del:hover{
+	color: #f44242;
+}
+/*Add Employee Page*/
+.addform{
+    margin:20px 0px;
+}
+.addhead{
+	text-align: center;
+	font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    color:#4b8cf4;
+}
+.skillset p{
+	text-align: left;
+}
+.formdesign{
+	padding:10px 0px;
+}
+#skillhead{
+	color: #4b8cf4;
+}
+/*My Profile Page*/
+.myaccformat{
+    padding:20px 0px;
+    text-align: left;
+}
+.profilehead p{
+	padding-top: 20px;
+}
+.profileview{
+	padding : 20px 0px;
+}
+/*employeedetail Page*/
+.detail h3{
+	text-align: left;
+	color:#07c65e;
+	font-weight: bold;
+	font-style: italic;
+}
+#skilldetail{
+	font-style: italic;
+	font-weight: bolder;
+	color:#07c65e;
+}
+.skillformadd{
+	display: none;
+}
+.save, .cancel {
+	display:none;
+}
+/* Skills Page*/
+.skillmargin{
+	margin-top: 20px;
+}
+/*Change Password Page*/
+#passwordchange{
+	color:#4b8cf4;
+}
+.updatepages{
+	padding:30px 0px;
+}
+/*Skillset Page*/
+.skillset{
+	padding:20px 0px;
+}
